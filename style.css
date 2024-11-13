@@ -1,65 +1,72 @@
-/* Style umum untuk Body */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f4f8;
+    background-color: #e0f7fa; 
     margin: 0;
     padding: 0;
     color: #333;
 }
 
-/* Container */
+
 .container {
     max-width: 800px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
-/* Navbar */
+
 nav {
     display: flex;
     justify-content: center;
-    background-color: #2a9d8f;
+    background-color: #007bb5; 
     padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 nav a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #e9c46a;
+    color: #00e5ff; 
 }
 
 /* Header */
 header h1 {
     font-size: 2em;
     text-align: center;
-    color: #264653;
+    color: #003366; 
+    margin-top: 0;
 }
 
 /* Profil Section */
 section h2 {
-    color: #264653;
-    border-bottom: 2px solid #e76f51;
+    color: #005b96; 
+    border-bottom: 2px solid #00c1d4;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
-/* Foto Profil */
+
 section img {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
-    border: 2px solid #e9c46a;
+    border: 2px solid #00c1d4; 
+    width: 150px;
+    height: 150px;
 }
 
-/* Biodata Table */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -67,7 +74,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #264653;
+    border: 1px solid #005b96; 
 }
 
 th, td {
@@ -76,17 +83,17 @@ th, td {
 }
 
 th {
-    background-color: #2a9d8f;
-    color: #fff;
+    background-color: #007bb5; 
+    color: #ffffff;
 }
 
-/* About Me Section */
+
 section p {
     text-align: justify;
     line-height: 1.6;
 }
 
-/* Experience and Education Section */
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -100,25 +107,16 @@ li {
 li p {
     margin: 5px 0;
     font-weight: normal;
-    color: #555;
+    color: #4d4d4d;
 }
 
-/* Contact Links */
+
 ul li a {
-    color: #2a9d8f;
+    color: #007bb5; 
     text-decoration: none;
 }
 
 ul li a:hover {
-    color: #e76f51;
+    color: #00c1d4; 
     text-decoration: underline;
-}
-
-/* Footer and Copyright */
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #264653;
-    color: #fff;
-    margin-top: 20px;
 }
