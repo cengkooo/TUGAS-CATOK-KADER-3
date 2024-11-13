@@ -1,0 +1,124 @@
+/* Style umum untuk Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2a9d8f;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e9c46a;
+}
+
+/* Header */
+header h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #264653;
+}
+
+/* Profil Section */
+section h2 {
+    color: #264653;
+    border-bottom: 2px solid #e76f51;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Foto Profil */
+section img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid #e9c46a;
+}
+
+/* Biodata Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table, th, td {
+    border: 1px solid #264653;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2a9d8f;
+    color: #fff;
+}
+
+/* About Me Section */
+section p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Experience and Education Section */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+li p {
+    margin: 5px 0;
+    font-weight: normal;
+    color: #555;
+}
+
+/* Contact Links */
+ul li a {
+    color: #2a9d8f;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #e76f51;
+    text-decoration: underline;
+}
+
+/* Footer and Copyright */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #264653;
+    color: #fff;
+    margin-top: 20px;
+}
